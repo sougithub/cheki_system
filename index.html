@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo and Drawing App</title>
+    <link rel="stylesheet" href="cssjs/style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="display-area">
+            <img id="photo" src="" alt="Captured Photo">
+            <canvas id="drawing-canvas"></canvas>
+        </div>
+        <div id="controls">
+            <button id="capture-btn">📸</button>
+            <button id="clear-btn">✏️</button>
+            <button id="send-mail-btn">📧</button>
+        </div>
+    </div>
+    <input type="file" accept="image/*" id="file-input" capture="environment" style="display: none;">
+    <script src="cssjs/script.js"></script>
+</body>
+</html>
